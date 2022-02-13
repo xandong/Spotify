@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+    --cor-verde: #1ED760;
+    --cor-verde2: #2de96f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none; 
+}
+
+body{
+    width: 100%;
+}
+a{
+    color: white;
+}
+p{
+    font-size: 0.90em;
+    padding: 8px 0;
+}
+
+
+header{
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+header a{
+    font-weight: 500;
+}
+a:hover{
+    color: var(--cor-verde);
+}
+.header{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
+.nav-header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header li{
+    padding: 0 20px;
+}
+header li:nth-child(3){
+    border-right: 1px solid white;
+}
+.nav-header{
+    
+}
+
+main{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/Spotify/img/background.png') center center/cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    margin: 0 auto;
+    width: 70%;
+    color: var(--cor-verde);
+    font-weight: 900;
+    font-size: 6em;
+    letter-spacing: -3px;
+    line-height: 1em;
+}
+main p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.05em;
+    color: var(--cor-verde);
+    padding: 40px;
+}
+main a{
+    background-color: var(--cor-verde);
+    padding: 16px 32px;
+    margin: 0 auto;
+    border-radius: 32px;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+main a:hover{
+    transition-duration: 0.2s;
+    color: black;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);
+    background-color: var(--cor-verde2);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0 100px 34px 100px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-around;
+    padding: 100px 0;    
+}
+.footer p{
+    font-size: 0.9em;
+    font-weight: 700;
+    color: gray;
+}
+.footer li{
+    padding: 12px 0;
+}
+.div-ultimo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    color: gray;
+}
+.footer5-1{
+    color: gray;
+    font-size: 0.8em;
+    text-align: end;
+}
+.icon-rs{
+    margin-left: 50px;
+}
+
+.nav-ultimo{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 0.8em;
+    padding-bottom: 24px;
+}
+.nav-ultimo a{
+    color: gray;
+}
+.nav-ultimo a:hover{
+    color: var(--cor-verde);
+}
