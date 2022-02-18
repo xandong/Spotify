@@ -68,7 +68,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/Spotify/img/background.png') center center/cover;
+    background: url('../img/background.png') center center/cover;
     text-align: center;
     margin: 0 auto;
 }
